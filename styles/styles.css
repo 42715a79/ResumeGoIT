@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main style */
+
+.main   {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content   {
+    background-color: #fff  ;
+}
+
+/* about style */
+.about  {
+
+}
+
+/* project styles */
+
+.project-title  {
+
+}
+
+/* work styles */
+
+.work   {
+}
+
+/* education style */
+.education  {
+}
+
+/*sidebar styles*/
+
+.sidebar    {
+    background-color: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo  {
+    width: 370px;
+    margin-bottom: 50px; 
+}
+
+.sidebar-title  {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills  {
+    margin-left: 40px;
+}
+
+.tech-skills-list {
+    color: #FFFFFF;
+    padding: 0;
+    margin: 17px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contacts-type {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.contact-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tech-skills-item {
+    color: #FB6D3A;
+}
+
+.tech-skills-text {
+    color: #fff;
+}
