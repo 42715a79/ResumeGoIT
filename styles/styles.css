@@ -95,10 +95,18 @@ body {
     color: #FFFFFF;
 }
 
-.tech-skills-item {
+.tech-skills-item,
+.soft-skills-item{
     color: #FB6D3A;
 }
 
-.tech-skills-text {
+.tech-skills-text,
+.soft-skills-text{
     color: #fff;
+}
+
+.soft-skills-list {
+    color: #FFFFFF;
+    padding: 0;
+    margin: 17px;
 }
