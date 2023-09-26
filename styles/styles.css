@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
 }
 
 /* main style */
@@ -13,18 +14,95 @@ body {
 
 .main-content   {
     background-color: #fff  ;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
 }
 
 /* about style */
 .about  {
+  margin-bottom: 40px;
+}
 
+.about-position {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 24px;
+
+}
+
+.about-describtion {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
 }
 
 /* project styles */
 
-.project-title  {
+.projects {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.project-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.project,
+.project-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(89, 89, 89, 1);
+    
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color:  rgba(0, 0, 0, 1)
 
 }
+
+.project-list{
+    padding: 0px;
+    margin-left: 15px;
+}
+
 
 /* work styles */
 
