@@ -1,6 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f7fa;
+    width: 1200px;
+    height: 1319px;
+    top: 40px;
+    left: 40px;
 }
 
 /* main style */
@@ -152,9 +156,42 @@ color: rgba(168, 168, 168, 1);
 }
 
 /* education style */
-.education  {
+.edu-title {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
 }
 
+.edu-place {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgba(251, 109, 58, 1);
+    margin-bottom: 10px;
+}
+
+.edu-what {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.edu-period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(168, 168, 168, 1);
+}
 /*sidebar styles*/
 
 .sidebar    {
